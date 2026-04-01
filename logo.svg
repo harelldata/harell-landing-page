@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Neural network "H" logo - three column node layout (4-3-4) -->
+  <!-- Left column nodes (y: 15, 35, 65, 85) -->
+  <circle cx="20" cy="15" r="5" fill="#1A9E96" opacity="0.9"/>
+  <circle cx="20" cy="35" r="5" fill="#1A9E96" opacity="0.9"/>
+  <circle cx="20" cy="65" r="5" fill="#1A9E96" opacity="0.9"/>
+  <circle cx="20" cy="85" r="5" fill="#1A9E96" opacity="0.9"/>
+
+  <!-- Middle column nodes (y: 25, 50, 75) -->
+  <circle cx="50" cy="25" r="5" fill="#2EBCB3" opacity="0.9"/>
+  <circle cx="50" cy="50" r="5" fill="#2EBCB3" opacity="0.9"/>
+  <circle cx="50" cy="75" r="5" fill="#2EBCB3" opacity="0.9"/>
+
+  <!-- Right column nodes (y: 15, 35, 65, 85) -->
+  <circle cx="80" cy="15" r="5" fill="#1A9E96" opacity="0.9"/>
+  <circle cx="80" cy="35" r="5" fill="#1A9E96" opacity="0.9"/>
+  <circle cx="80" cy="65" r="5" fill="#1A9E96" opacity="0.9"/>
+  <circle cx="80" cy="85" r="5" fill="#1A9E96" opacity="0.9"/>
+
+  <!-- Background edges (lighter, thinner) -->
+  <!-- Left to middle -->
+  <line x1="20" y1="15" x2="50" y2="50" stroke="#1A9E96" stroke-width="0.8" opacity="0.25"/>
+  <line x1="20" y1="15" x2="50" y2="75" stroke="#1A9E96" stroke-width="0.8" opacity="0.2"/>
+  <line x1="20" y1="35" x2="50" y2="75" stroke="#1A9E96" stroke-width="0.8" opacity="0.25"/>
+  <line x1="20" y1="65" x2="50" y2="25" stroke="#1A9E96" stroke-width="0.8" opacity="0.25"/>
+  <line x1="20" y1="85" x2="50" y2="25" stroke="#1A9E96" stroke-width="0.8" opacity="0.2"/>
+  <line x1="20" y1="85" x2="50" y2="50" stroke="#1A9E96" stroke-width="0.8" opacity="0.25"/>
+
+  <!-- Middle to right -->
+  <line x1="50" y1="25" x2="80" y2="65" stroke="#1A9E96" stroke-width="0.8" opacity="0.25"/>
+  <line x1="50" y1="25" x2="80" y2="85" stroke="#1A9E96" stroke-width="0.8" opacity="0.2"/>
+  <line x1="50" y1="75" x2="80" y2="15" stroke="#1A9E96" stroke-width="0.8" opacity="0.2"/>
+  <line x1="50" y1="75" x2="80" y2="35" stroke="#1A9E96" stroke-width="0.8" opacity="0.25"/>
+  <line x1="50" y1="50" x2="80" y2="15" stroke="#1A9E96" stroke-width="0.8" opacity="0.25"/>
+  <line x1="50" y1="50" x2="80" y2="85" stroke="#1A9E96" stroke-width="0.8" opacity="0.25"/>
+
+  <!-- H verticals - brighter, thicker (left vertical) -->
+  <line x1="20" y1="15" x2="50" y2="25" stroke="#2EBCB3" stroke-width="2" opacity="0.7"/>
+  <line x1="20" y1="35" x2="50" y2="25" stroke="#2EBCB3" stroke-width="2" opacity="0.7"/>
+  <line x1="20" y1="65" x2="50" y2="75" stroke="#2EBCB3" stroke-width="2" opacity="0.7"/>
+  <line x1="20" y1="85" x2="50" y2="75" stroke="#2EBCB3" stroke-width="2" opacity="0.7"/>
+
+  <!-- H verticals - brighter, thicker (right vertical) -->
+  <line x1="50" y1="25" x2="80" y2="15" stroke="#2EBCB3" stroke-width="2" opacity="0.7"/>
+  <line x1="50" y1="25" x2="80" y2="35" stroke="#2EBCB3" stroke-width="2" opacity="0.7"/>
+  <line x1="50" y1="75" x2="80" y2="65" stroke="#2EBCB3" stroke-width="2" opacity="0.7"/>
+  <line x1="50" y1="75" x2="80" y2="85" stroke="#2EBCB3" stroke-width="2" opacity="0.7"/>
+
+  <!-- H crossbar - brightest, thickest -->
+  <line x1="20" y1="35" x2="50" y2="50" stroke="#2EBCB3" stroke-width="2.5" opacity="0.85"/>
+  <line x1="20" y1="65" x2="50" y2="50" stroke="#2EBCB3" stroke-width="2.5" opacity="0.85"/>
+  <line x1="50" y1="50" x2="80" y2="35" stroke="#2EBCB3" stroke-width="2.5" opacity="0.85"/>
+  <line x1="50" y1="50" x2="80" y2="65" stroke="#2EBCB3" stroke-width="2.5" opacity="0.85"/>
+</svg>
